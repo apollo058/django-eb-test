@@ -360,3 +360,9 @@ fabric.properties
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/django,pycharm,macos,linux,visualstudiocode
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+!.elasticbeanstalk/config.yml
